@@ -727,8 +727,8 @@
                 // Simulate quantity of buyers and sellers
                 const nBuy = 100; // Number of buyers
                 const nSell = 100; // Number of sellers
-                const buyers = Math.round(edgeBuy * nBuy);
-                const sellers = Math.round(edgeSell * nSell);
+                const buyers = Math.round(edgeSell * nBuy);
+                const sellers = Math.round(edgeBuy * nSell);
 
                 // Display the market result
                 const resultDiv = document.getElementById("market-result");
